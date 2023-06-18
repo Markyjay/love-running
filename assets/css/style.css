@@ -60,7 +60,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero-image */
+/* hero-image and cover text */
 
 #hero-outer {
     height: 600;
@@ -70,11 +70,10 @@ h2 {
     position: relative;
 }
 
-#cover-text,
-#cover-text h2 #hero-image {
-    height: 600;
+#hero-image {
+    height: 600px;
     width: 100%;
-    background: url('../assets/images/hero-image.webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
@@ -144,7 +143,7 @@ hr {
 }
 
 .left-about-heading {
-    width: 60;
+    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -152,7 +151,7 @@ hr {
 }
 
 .right-about-heading {
-    width: 600px;
+    width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -287,7 +286,7 @@ footer {
     }
 }
 
-/* for meadia screen sizes from 950px and down */
+/* for media screen sizes from 950px and down */
 
 @media screen and (max-width: 950px) {
     #menu {
